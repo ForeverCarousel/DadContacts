@@ -1,0 +1,26 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - MJExtension (3.2.1)
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - FMDB
+  - MJExtension
+  - YYCache
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - MJExtension
+    - YYCache
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: e845c103b951b41e3ea3f74e2a6998cc93fda680
+
+COCOAPODS: 1.9.1
