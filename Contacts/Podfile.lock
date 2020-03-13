@@ -11,7 +11,7 @@ DEPENDENCIES:
   - YYCache
 
 SPEC REPOS:
-  trunk:
+  https://cdn.cocoapods.org/:
     - FMDB
     - MJExtension
     - YYCache

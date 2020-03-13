@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  ViewController.h
 //  Contacts
 //
 //  Created by chenxiaolong on 2020/3/12.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+@interface XLRootViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow * window;
 
 @end
 

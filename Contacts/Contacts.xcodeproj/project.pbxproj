@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		504A2F45241A7C5600D3C8D9 /* XLRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 504A2F44241A7C5600D3C8D9 /* XLRootViewController.xib */; };
+		504A2F47241A821700D3C8D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504A2F46241A821700D3C8D9 /* LaunchScreen.storyboard */; };
+		504A2F4B241A849F00D3C8D9 /* XLContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 504A2F49241A849F00D3C8D9 /* XLContactCell.m */; };
+		504A2F4C241A849F00D3C8D9 /* XLContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 504A2F4A241A849F00D3C8D9 /* XLContactCell.xib */; };
+		5081F62C241B685B0018B712 /* XLCreateContactController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5081F62A241B685B0018B712 /* XLCreateContactController.m */; };
+		5081F62D241B685B0018B712 /* XLCreateContactController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5081F62B241B685B0018B712 /* XLCreateContactController.xib */; };
 		982CF593241A5875000C373C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 982CF592241A5875000C373C /* AppDelegate.m */; };
-		982CF596241A5875000C373C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 982CF595241A5875000C373C /* SceneDelegate.m */; };
-		982CF599241A5876000C373C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 982CF598241A5876000C373C /* ViewController.m */; };
-		982CF59C241A5876000C373C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982CF59A241A5876000C373C /* Main.storyboard */; };
+		982CF599241A5876000C373C /* XLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 982CF598241A5876000C373C /* XLRootViewController.m */; };
 		982CF59E241A5879000C373C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982CF59D241A5879000C373C /* Assets.xcassets */; };
-		982CF5A1241A5879000C373C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982CF59F241A5879000C373C /* LaunchScreen.storyboard */; };
 		982CF5A4241A5879000C373C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 982CF5A3241A5879000C373C /* main.m */; };
 		982CF5AC241A5ADF000C373C /* STCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 982CF5AA241A5ADF000C373C /* STCacheManager.m */; };
 		982CF5AF241A5B14000C373C /* XLContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 982CF5AE241A5B14000C373C /* XLContact.m */; };
@@ -21,17 +24,21 @@
 
 /* Begin PBXFileReference section */
 		30349B3845854228CCB50E36 /* Pods-Contacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contacts.release.xcconfig"; path = "Target Support Files/Pods-Contacts/Pods-Contacts.release.xcconfig"; sourceTree = "<group>"; };
+		504A2F44241A7C5600D3C8D9 /* XLRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLRootViewController.xib; sourceTree = "<group>"; };
+		504A2F46241A821700D3C8D9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		504A2F48241A849F00D3C8D9 /* XLContactCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLContactCell.h; sourceTree = "<group>"; };
+		504A2F49241A849F00D3C8D9 /* XLContactCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLContactCell.m; sourceTree = "<group>"; };
+		504A2F4A241A849F00D3C8D9 /* XLContactCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLContactCell.xib; sourceTree = "<group>"; };
+		5081F629241B685B0018B712 /* XLCreateContactController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLCreateContactController.h; sourceTree = "<group>"; };
+		5081F62A241B685B0018B712 /* XLCreateContactController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLCreateContactController.m; sourceTree = "<group>"; };
+		5081F62B241B685B0018B712 /* XLCreateContactController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLCreateContactController.xib; sourceTree = "<group>"; };
 		952768E4D6D45DBC9C23BFFA /* Pods-Contacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contacts.debug.xcconfig"; path = "Target Support Files/Pods-Contacts/Pods-Contacts.debug.xcconfig"; sourceTree = "<group>"; };
 		982CF58E241A5875000C373C /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		982CF591241A5875000C373C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		982CF592241A5875000C373C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		982CF594241A5875000C373C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		982CF595241A5875000C373C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		982CF597241A5876000C373C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		982CF598241A5876000C373C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		982CF59B241A5876000C373C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		982CF597241A5876000C373C /* XLRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLRootViewController.h; sourceTree = "<group>"; };
+		982CF598241A5876000C373C /* XLRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLRootViewController.m; sourceTree = "<group>"; };
 		982CF59D241A5879000C373C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		982CF5A0241A5879000C373C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		982CF5A2241A5879000C373C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		982CF5A3241A5879000C373C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		982CF5AA241A5ADF000C373C /* STCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCacheManager.m; sourceTree = "<group>"; };
@@ -85,17 +92,21 @@
 			children = (
 				982CF591241A5875000C373C /* AppDelegate.h */,
 				982CF592241A5875000C373C /* AppDelegate.m */,
-				982CF594241A5875000C373C /* SceneDelegate.h */,
-				982CF595241A5875000C373C /* SceneDelegate.m */,
-				982CF597241A5876000C373C /* ViewController.h */,
-				982CF598241A5876000C373C /* ViewController.m */,
+				982CF597241A5876000C373C /* XLRootViewController.h */,
+				982CF598241A5876000C373C /* XLRootViewController.m */,
+				504A2F44241A7C5600D3C8D9 /* XLRootViewController.xib */,
+				5081F629241B685B0018B712 /* XLCreateContactController.h */,
+				5081F62A241B685B0018B712 /* XLCreateContactController.m */,
+				5081F62B241B685B0018B712 /* XLCreateContactController.xib */,
+				504A2F48241A849F00D3C8D9 /* XLContactCell.h */,
+				504A2F49241A849F00D3C8D9 /* XLContactCell.m */,
+				504A2F4A241A849F00D3C8D9 /* XLContactCell.xib */,
 				982CF5AB241A5ADF000C373C /* STCacheManager.h */,
 				982CF5AA241A5ADF000C373C /* STCacheManager.m */,
 				982CF5AD241A5B14000C373C /* XLContact.h */,
 				982CF5AE241A5B14000C373C /* XLContact.m */,
-				982CF59A241A5876000C373C /* Main.storyboard */,
+				504A2F46241A821700D3C8D9 /* LaunchScreen.storyboard */,
 				982CF59D241A5879000C373C /* Assets.xcassets */,
-				982CF59F241A5879000C373C /* LaunchScreen.storyboard */,
 				982CF5A2241A5879000C373C /* Info.plist */,
 				982CF5A3241A5879000C373C /* main.m */,
 			);
@@ -169,9 +180,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				982CF5A1241A5879000C373C /* LaunchScreen.storyboard in Resources */,
 				982CF59E241A5879000C373C /* Assets.xcassets in Resources */,
-				982CF59C241A5876000C373C /* Main.storyboard in Resources */,
+				5081F62D241B685B0018B712 /* XLCreateContactController.xib in Resources */,
+				504A2F4C241A849F00D3C8D9 /* XLContactCell.xib in Resources */,
+				504A2F47241A821700D3C8D9 /* LaunchScreen.storyboard in Resources */,
+				504A2F45241A7C5600D3C8D9 /* XLRootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,35 +237,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				982CF599241A5876000C373C /* ViewController.m in Sources */,
+				982CF599241A5876000C373C /* XLRootViewController.m in Sources */,
+				504A2F4B241A849F00D3C8D9 /* XLContactCell.m in Sources */,
 				982CF593241A5875000C373C /* AppDelegate.m in Sources */,
+				5081F62C241B685B0018B712 /* XLCreateContactController.m in Sources */,
 				982CF5A4241A5879000C373C /* main.m in Sources */,
 				982CF5AC241A5ADF000C373C /* STCacheManager.m in Sources */,
 				982CF5AF241A5B14000C373C /* XLContact.m in Sources */,
-				982CF596241A5875000C373C /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		982CF59A241A5876000C373C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				982CF59B241A5876000C373C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		982CF59F241A5879000C373C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				982CF5A0241A5879000C373C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		982CF5A5241A5879000C373C /* Debug */ = {
@@ -371,13 +366,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AK456P3G6;
 				INFOPLIST_FILE = Contacts/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.carousel.techonology.com.Contacts;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noxgroup.app.contacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -389,13 +386,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AK456P3G6;
 				INFOPLIST_FILE = Contacts/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.carousel.techonology.com.Contacts;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noxgroup.app.contacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
